@@ -18,7 +18,7 @@ const PageTransition = ({ children }) => {
               ease: "easeOut",
             },
           }}
-         className = "h-screen w-screen fixed bg-[#1c1c22] top-0 pointer-events-none" />
+         className = "h-screen w-screen fixed bg-black top-0 pointer-events-none" />
          {children}
       </div>
     </AnimatePresence>

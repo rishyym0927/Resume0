@@ -51,11 +51,11 @@ const Services = () => {
                 return <div key={index} className="flex flex-1 flex-col justify-center gap-4 group">
                     <div className="w-full flex justify-between items-center">
                         <div className="text-5xl font-extrabold text-outline group-hover:text-outline-hover transition-all duration-500 text-transparent ">{service.num}</div>
-                        <Link href={service.href} className="w-[70px] h-[70px] rounded-full bg-white  group-hover:bg-[#00ff99] transition-all duration-500 flex justify-center items-center group-hover:-rotate-45">
+                        <Link href={service.href} className="w-[70px] h-[70px] rounded-full bg-white  group-hover:bg-[#f84ca8]  transition-all duration-500 flex justify-center items-center group-hover:-rotate-45">
                         <BsArrowDown className="text-black text-3xl"/>
                         </Link>
                     </div>
-                    <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-[#00ff99] transition-all duration-500 ">{service.title}</h2>
+                    <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-[#f84ca8]  transition-all duration-500 ">{service.title}</h2>
                     <p className="text-white/60"> {service.Description}</p>
                     <div className="border-b border-white/80 w-full ">
 

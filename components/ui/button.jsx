@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-[#f84ca8]  text-[#1c1c22]",
+          "bg-[#f84ca8] text-[#1c1c22]",
        
       },
       size: {
