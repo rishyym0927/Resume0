@@ -5,12 +5,12 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded full text-base font-semibold ring-offset-white transition:colors ",
+  "inline-flex items-center  justify-center whitespace-nowrap rounded full text-base font-semibold ring-offset-white transition:colors ",
   {
     variants: {
       variant: {
         default:
-          "bg-red-200 text-[#1c1c22]",
+          "bg-[#f84ca8]  text-[#1c1c22]",
        
       },
       size: {

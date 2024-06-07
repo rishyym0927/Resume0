@@ -19,6 +19,10 @@ const links = [
     path: "/resume",
   },
   {
+    name: "work",
+    path: "/work",
+  },
+  {
     name: "contact",
     path: "/contact",
   },
@@ -30,7 +34,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
-        <CiMenuFries className="text-[32px] text-red-200" />
+        <CiMenuFries className="text-[32px] text-[#f84ca8] " />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <div className="mt-32 mb-40 text-center  text-2xl">
@@ -46,7 +50,7 @@ const MobileNav = () => {
                 key={index}
                 className={`${
                   link.path === pathname &&
-                  "text-red-200 border-b-2 border-red-200"
+                  "text-[#f84ca8] border-b-2 border-[#f84ca8] "
                 }text-xl capitalize hover:text-red transition-all`}
               >
                 {link.name}

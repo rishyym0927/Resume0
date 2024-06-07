@@ -11,15 +11,17 @@ export default function Home() {
         <div className="flex flex-col  xl:flex-row items-center justify-between xl:pt-2 xl:pb-4">
           {/* {Text} */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl ">Software Developer </span>
-            <h1 className="h1">
+            {/* <span className="text-xl ">Software Developer </span> */}
+            <h1 className="h1 my-4">
               {" "}
               Hello I'm <br />{" "}
-              <span className="text-red-200">Luke Coleman</span>{" "}
+              <span className="text-[#f84ca8] ">Rishiraj Mukherjee</span>{" "}
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80 ">
-              I excel at crafting elegant digital experience and I am proficient
-              in various programming language and technologies
+              I excel at crafting elegant digital experiences and am proficient
+              in various programming languages and technologies.As a student
+              immersed in coding, <br/>I aspire to learn and develop innovative
+              technologies.
             </p>
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -30,7 +32,7 @@ export default function Home() {
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
-                  iconStyles="w-9 h-9 border border-accent rounded-full  flex justify-center items-center text-red-300 text-base hover:transition-all duration-500]"
+                  iconStyles="w-9 h-9 border border-accent rounded-full  flex justify-center items-center text-[#f84ca8] text-base hover:transition-all duration-500]"
                 />
               </div>
             </div>
