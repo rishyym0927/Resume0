@@ -17,20 +17,20 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Rishiraj Mukherjee",
     },
     {
       fieldName: "Phone",
       fieldValue: "(+91) 9369831243",
     },
     {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldName: "College",
+      fieldValue: "IIIT Lucknow",
     },
 
     {
-      fieldName: "Skype",
-      fieldValue: "Luke Coleman",
+      fieldName: "Course",
+      fieldValue: "Information Tech."
     },
 
     {
@@ -232,14 +232,14 @@ const Resume = () => {
                           key={index}
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
-                          <span className="text-[#22ff99]">
+                          <span className="text-[#f84ca8]">
                             {item.duration}
                           </span>
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
                             {item.position}
                           </h3>
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-full bg-[#22ff66]"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-[#f84ca8]"></span>
                             <p className="text-white/60">{item.company}</p>
                           </div>
                         </li>
@@ -264,14 +264,14 @@ const Resume = () => {
                           key={index}
                           className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
-                          <span className="text-[#22ff99]">
+                          <span className="text-[#f84ca8]">
                             {item.duration}
                           </span>
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
                             {item.degree}
                           </h3>
                           <div className="flex items-center gap-3">
-                            <span className="w-[6px] h-[6px] rounded-full bg-[#22ff66]"></span>
+                            <span className="w-[6px] h-[6px] rounded-full bg-[#f84ca8]"></span>
                             <p className="text-white/60">{item.institution}</p>
                           </div>
                         </li>
@@ -298,7 +298,7 @@ const Resume = () => {
                           <TooltipProvider delayDuration={100}>
                             <Tooltip>
                               <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group ">
-                                <div className="text-6xl  group-hover:text-[#22ff99] transition-all duration-500">
+                                <div className="text-6xl  group-hover:text-[#f84ca8] transition-all duration-500">
                                   {skill.icon}
                                 </div>
                               </TooltipTrigger>

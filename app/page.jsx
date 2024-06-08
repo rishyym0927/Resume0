@@ -25,7 +25,7 @@ export default function Home() {
             </p>
             {/* btn and social */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <button className="flex flex-row border w-48 p-2 text-md items-center justify-center gap-4 border-white/50 rounded">
+              <button className="flex flex-row border w-48 p-2 text-md items-center justify-center gap-4 border-white/50 rounded hover:scale-[1.03] transition-all duration-300 ">
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </button>

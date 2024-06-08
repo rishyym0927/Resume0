@@ -24,7 +24,7 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "  ",
+    description: "rishyym0927@gmail.com",
   },
   {
     icon: <FaMapMarker />,
@@ -55,7 +55,7 @@ const Contact = () => {
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl ">
-              <h3 className="text-4xl text-[#22ff99] ">Let's work together</h3>
+              <h3 className="text-4xl text-[#f84ca8] ">Let's work together</h3>
               <p className="text-white/60">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Laudantium officia nemo totam aliquam 
@@ -84,7 +84,7 @@ const Contact = () => {
                 </Select>
                 <Textarea className="h-[200px]" placeholder="Type your message here" />
 
-                <button className="w-48 border-black border  rounded-lg py-3 bg-[#22ff99] text-[#1C1C22] text-base font-bold">
+                <button className="w-48 border-black border  rounded-lg py-3 bg-[#f84ca8] text-[#1C1C22] text-base font-bold">
                     Send Message
                 </button>
             </form>
@@ -94,7 +94,7 @@ const Contact = () => {
             <ul className="flex flex-col gap-10">
                 {info.map((item, index)=>{
                     return <li key={index} className="flex items-center gap-6">
-                        <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-[#22ff99] rounded-md flex items-center justify-center" >
+                        <div className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] text-[#f84ca8] rounded-md flex items-center justify-center" >
                             <div className="text-[28px]">{item.icon}</div>
                         </div>
                         <div>
